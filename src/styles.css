@@ -1,0 +1,83 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+
+  /*
+   * CSS image reference example.
+   */
+}
+.one-country {
+  list-style: none;
+}
+.description {
+  display: flex;
+  justify-content: space-around;
+}
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-left: auto;
+  margin-right: auto;
+}
+.search-form {
+  padding-left: 100px;
+  padding-top: 100px;
+}
+.sr-only {
+  margin-bottom: 30px;
+  font-size: 24px;
+  font-weight: 700;
+}
+.form-control {
+  width: 300px;
+  font-size: 20px;
+
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid purple;
+}
+.form-control:active,
+.form-control:hover,
+.form-control:focus {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  border-bottom: 3px solid blueviolet;
+}
+.counrty_name {
+  font-size: 26px;
+  font-weight: 700;
+}
+.country_option {
+  font-size: 20px;
+  font-weight: 500;
+}
+.country_flag {
+  width: 500px;
+  border: 2px double #000;
+}
+.country_name {
+  text-align: center;
+}
+.container_result {
+  width: 1000px;
+  margin-top: 30px;
+}
+.country_list {
+  font-size: 24px;
+  font-weight: normal;
+  padding-left: 50px;
+}
