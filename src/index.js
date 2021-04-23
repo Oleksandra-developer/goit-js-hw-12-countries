@@ -8,7 +8,6 @@ import countriesMarkUp from './templates/markupList.hbs'
 import fetchCountries from './js/fetchCountries.js';
 import debounce from 'lodash.debounce';
 
-
 const refs = {
   searchForm: document.querySelector('.js-search-form'),
   input: document.querySelector('#searchQuery'),
